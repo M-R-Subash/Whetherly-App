@@ -1,4 +1,4 @@
-const API_KEY = process.env.REACT_APP_OWM_KEY;
+const API_KEY = import.meta.env.VITE_OWM_KEY;
 const BASE = "https://api.openweathermap.org/data/2.5";
 
 function handleFetch(url) {
@@ -11,18 +11,15 @@ function handleFetch(url) {
   });
 }
 
-
 export function fetchCurrentByCity(city) {
   const url = `${BASE}/weather?q=${encodeURIComponent(city)}&units=metric&appid=${API_KEY}`;
   return handleFetch(url);
 }
 
-
 export function fetchForecastByCity(city) {
   const url = `${BASE}/forecast?q=${encodeURIComponent(city)}&units=metric&appid=${API_KEY}`;
   return handleFetch(url);
 }
-
 
 export function fetchCurrentByCoords(lat, lon) {
   const url = `${BASE}/weather?lat=${lat}&lon=${lon}&units=metric&appid=${API_KEY}`;

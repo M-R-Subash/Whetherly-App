@@ -191,13 +191,9 @@ export default function App() {
             ) : (
               <>
                 <WeatherDisplay data={currentWeather} onSave={saveLocation} isSaved={currentWeather && saved.some(s => s.key === keyForLocation(currentWeather))} />
-                {!currentWeather && <div className="text-slate-400 mt-4">Search for a city to view current weather.</div>}
+                {!currentWeather && <div className="text-slate-400  mt-4">Search for a city to view current weather.</div>}
               </>
             )}
-          </div>
-
-          <div className="glass p-4 rounded-md text-sm">
-            Tip: Connect your LinkedIn and GitHub in the README and share the deployed link — employers notice polished small projects.
           </div>
         </div>
       </main>

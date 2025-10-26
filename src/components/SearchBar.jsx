@@ -11,7 +11,7 @@ export default function SearchBar({ onSearch, onUseGeolocation }) {
   };
 
   return (
-    <form onSubmit={submit} className="flex gap-2">
+    <form onSubmit={submit} className="flex gap-2 max-sm:flex-col flex-wrap">
       <input
         aria-label="Search city"
         value={q}

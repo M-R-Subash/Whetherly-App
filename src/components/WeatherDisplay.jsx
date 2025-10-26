@@ -2,7 +2,7 @@ import React from "react";
 
 function WeatherRow({ label, value }) {
   return (
-    <div className="flex justify-between text-sm text-slate-300">
+    <div className="flex justify-between text-sm  text-slate-300">
       <span>{label}</span>
       <span className="font-medium text-slate-100">{value}</span>
     </div>
