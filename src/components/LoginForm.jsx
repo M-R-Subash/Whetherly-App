@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 
-/**
- * Simple localStorage-based auth for demo purposes.
- * Stores users as: { username: string, password: string, bookmarks: [] }
- */
 export default function LoginForm({ onLogin }) {
   const [mode, setMode] = useState("login"); // or 'signup'
   const [username, setUsername] = useState("");
