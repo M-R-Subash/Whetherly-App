@@ -1,4 +1,4 @@
-# 🌦️ React Weather App
+# 🌦️ Whetherly — React Weather App
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white" />
@@ -7,55 +7,56 @@
   <img src="https://img.shields.io/badge/API-OpenWeatherMap-FFB300?logo=openweathermap&logoColor=white" />
 </p>
 
-A modern, minimalist 🌙 **Weather App** built with **React + Tailwind CSS + Vite**, fetching **real-time weather data** from the **OpenWeatherMap API**.  
-This project demonstrates my ability to integrate APIs, manage React state effectively, and design clean, responsive UI — perfect for recruiters evaluating beginner-to-intermediate React developers.  
+**Whetherly** is a modern and minimalist 🌙 **React Weather App** that provides real-time weather data using the **OpenWeatherMap API**.  
+Built with **React + Tailwind CSS + Vite**, it’s fast, responsive, and user-friendly — a perfect showcase of clean front-end design and API integration skills.
 
 ---
 
-## 🚀 Live Demo
-🔗 [**View Live on GitHub Pages**](https://<your-username>.github.io/weather-app/)  
-*(Replace this link with your actual GitHub Pages URL after deploying)*
+## 🌍 Live Demo
+
+🔗 **[View Live App](https://m-r-subash.github.io/Whetherly-App/)**  
+📦 **GitHub Repository:** [https://github.com/M-R-Subash/Whetherly-App](https://github.com/M-R-Subash/Whetherly-App)
 
 ---
 
-## 🧠 Features
+## ✨ Features
 
-✨ **Real-Time Weather Data** — Fetch live weather information using the OpenWeatherMap API  
-🔍 **City Search** — Search for weather by city name  
-💾 **Save Locations** — Bookmark your favorite cities (stored in `localStorage`)  
-👤 **User Login & Profile** — Simple local login system for managing saved locations  
-📱 **Responsive Design** — Optimized for mobile, tablet, and desktop screens  
-🎨 **Modern UI** — Built with Tailwind CSS and a minimalist aesthetic
+- 🌦️ **Live Weather Data** — Get real-time weather details via the OpenWeatherMap API  
+- 🔍 **City Search** — Search weather conditions by city name  
+- 📱 **Responsive UI** — Works seamlessly on desktop and mobile  
+- 💾 **Saved Cities** — Keep your favorite locations for quick access *(optional localStorage feature)*  
+- ⚡ **Fast & Lightweight** — Powered by Vite for instant builds and refresh  
+- 🎨 **Tailwind Styling** — Minimalist, modern, and consistent design
 
 ---
 
 ## 🧩 Tech Stack
 
-| Tool | Purpose |
-|------|----------|
-| ⚛️ **React** | Component-based UI development |
-| 🎨 **Tailwind CSS** | Modern utility-first styling |
-| ⚡ **Vite** | Superfast dev environment and bundler |
-| ☁️ **OpenWeatherMap API** | Real-time weather data source |
-| 💾 **localStorage** | Persist saved locations and user profile |
+| Tool | Description |
+|------|--------------|
+| ⚛️ **React** | UI library for component-based development |
+| 🎨 **Tailwind CSS** | Utility-first CSS framework |
+| ⚡ **Vite** | Fast bundler and dev server |
+| ☁️ **OpenWeatherMap API** | Provides live weather data |
+| 💾 **localStorage** | Saves user preferences locally |
 
 ---
 
-## 🛠️ Setup Instructions
+## ⚙️ Local Setup
 
-Follow these steps to set up the project locally:
+Follow these simple steps to run the project locally 👇
 
 ```bash
 # 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/weather-app.git
+git clone https://github.com/M-R-Subash/Whetherly-App.git
 
 # 2️⃣ Move into the project directory
-cd weather-app
+cd Whetherly-App
 
 # 3️⃣ Install dependencies
 npm install
 
-# 4️⃣ Create your .env file
+# 4️⃣ Add your OpenWeatherMap API key
 echo "VITE_OWM_KEY=your_api_key_here" > .env
 
 # 5️⃣ Run the development server
